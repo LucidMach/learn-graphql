@@ -1,10 +1,5 @@
-# this is the repository where I document, comment and learn graphQL from scratch (i.e, no apollo)
+1. A Schema can have multiple GraphQL Objects
+2. A GraphQL Object has a `name`, `description`, multiple `fields` functions, etc
+3. A field can have `type`, `description`, `resolver` function, `arg`
 
-## Resources
-
-1. [WebDevSimplified - graphQL in 30mins](https://www.youtube.com/watch?v=ZQL7tL2S0oQ&t=885s)
-
-## SetUp
-
-1. `yarn add express express-graphql graphql`
-2. `yarn add -D nodemon`
+[why fields require a function](https://youtu.be/ZQL7tL2S0oQ?t=1848s)
